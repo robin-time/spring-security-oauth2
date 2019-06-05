@@ -9,7 +9,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-security-oauth2-server</artifactId>
+    <artifactId>spring-security-oauth2-resource</artifactId>
     <url>http://www.funtl.com</url>
 
     <licenses>
@@ -81,7 +81,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.oauth2.OAuth2ServerApplication</mainClass>
+                    <mainClass>com.funtl.oauth2.resource.Oauth2ResourceApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
